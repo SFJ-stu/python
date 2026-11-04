@@ -1,0 +1,16 @@
+num1 = float(input("Enter 1 number: "))
+num2 = float(input("Enter 2 number: "))
+Operation = input("Please enter the arithmetic operation: ")
+if Operation == "+":
+    sum = num1+num2
+elif Operation == "-":
+    sum = num1-num2
+elif Operation == "*":
+    sum = num1*num2
+elif Operation == "/":
+    sum = num1/num2
+else:
+    print("There is no such arithmetic operation")
+
+print("The result of the operation is: ", sum)
+
