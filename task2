@@ -1,0 +1,11 @@
+Type = input("Please choose the type of temperature you want to convert (C/F): ")
+degree = input("please enter the degree: ")
+c = (int(degree) - 32) / 1.8
+f = int(degree) * 1.8 +32
+if Type == "c":
+    print("Temperature in Celsius is: ", c)
+elif Type == "f":
+    print("temperature in Fahrenheit is: ", f)
+
+else:
+    print("you can only enter f or c")
